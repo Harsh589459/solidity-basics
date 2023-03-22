@@ -23,7 +23,7 @@ contract MyToken {
     uint public totalSupply=0;
 
     // mapping variable here
- mapping(address => uint) public balances;//we are mapping addresses to uint if we pass address here  it will return the token amount of the address
+ mapping(address => uint) public balances;
 
     // mint function
 function mint(address _address, uint _value) public {
